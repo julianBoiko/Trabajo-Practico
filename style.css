@@ -1,7 +1,7 @@
 .cabeza {
    background-color: grey;
    height: 150px;
-   
+ 
 }
 .busqueda {
     width: 400px;
@@ -15,18 +15,27 @@
 
 .carrito {
     height: 40px;
-    width: 300px;
+    width: 180px;
+    
+}
 
+.promociones {
+    height: 120px;
 }
 
 .login {
-    color: rgb(139, 0, 0) !important;
-    text-decoration-line: none;
-    font-weight: bold;
- 
-}
-
-.login:hover {
+    box-shadow: inset 0 0 0 0 white;
+    color: white;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .login:hover {
+    box-shadow: inset 100px 0 0 0 white;
     color: black;
-    background-color: black;
+  }
+
+.carousel {
+    width: 500px;
+    height: 500px;
 }
