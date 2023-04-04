@@ -1,10 +1,32 @@
 .cabeza {
-   background-color: #808080;
-    height: 150px;
-
-    
+   background-color: grey;
+   height: 150px;
+   
 }
 .busqueda {
     width: 400px;
 }
 
+.logo {
+    height: 120px;
+    width: auto;
+
+}
+
+.carrito {
+    height: 40px;
+    width: 300px;
+
+}
+
+.login {
+    color: rgb(139, 0, 0) !important;
+    text-decoration-line: none;
+    font-weight: bold;
+ 
+}
+
+.login:hover {
+    color: black;
+    background-color: black;
+}
