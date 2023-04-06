@@ -35,4 +35,16 @@
     color: black;
   }
 
+.separador {
+    height: 100px;
 
+}
+
+.integrantes {
+    font-weight: bold;
+    list-style-type: none;
+    font-size: large;
+}
+.grupo6 {
+    font-size: large;
+}

@@ -15,7 +15,7 @@
     <!-- BARRA DE NAVEGACION -->
 
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
               <a class="nav-link active" aria-current="page" href="#">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">QUIENES SOMOS</a>
+              <a class="nav-link" href="#quienes">QUIENES SOMOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">DONDE ESTAMOS</a>
@@ -41,6 +41,8 @@
     </nav>
 
   </header>
+
+  <div class="separador"> </div>
 
 
   <div class="cabeza position-relative">
@@ -150,7 +152,7 @@
 
 <div class="container">
 
-  <h1>Novedades</h1>
+  <h1 class="m-3">Novedades</h1>
 
   <div id="carouselExampleCaptions" class="carousel slide container">
     <div class="carousel-indicators">
@@ -420,15 +422,15 @@
     <nav aria-label="Page navigation">
       <ul class="pagination justify-content-center m-3">
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Previous">
+          <a class="page-link" style="color: goldenrod" href="#" aria-label="Previous">
             <span aria-hidden="true">&laquo;</span>
           </a>
         </li>
-        <li class="page-item"><a class="page-link" href="#">1</a></li>
-        <li class="page-item"><a class="page-link" href="#">2</a></li>
-        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" style="color: goldenrod" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" style="color: goldenrod" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" style="color: goldenrod" href="#">3</a></li>
         <li class="page-item">
-          <a class="page-link" href="#" aria-label="Next">
+          <a class="page-link" style="color: goldenrod" href="#" aria-label="Next">
             <span aria-hidden="true">&raquo;</span>
           </a>
         </li>
@@ -437,8 +439,31 @@
 
   </section>
 
+<!-- SECCION DE QUIENES SOMOS -->
+
   <section>
-    <!-- link => acá ponemos el quienes somos con nuestros datos -->
+    <div class="container bg-warning-subtle">
+      <h1 id="quienes">Quienes somos:</h1>
+      <p class="grupo6">Somos un grupo de estudiantes de Desarrollo Web, más precisamente el Grupo 6 de la clase 188 de UTN para el siclo de Argentina Programa 4.0.</p> 
+      
+      <p class="grupo6">Para este trabajo nos propusimos crear una página Web de ventas de Vinilos (G SIX VINILOS).</p>
+    
+      <p class="grupo6">Este grupo esta compuesto por:</p>
+      <ul class="integrantes">
+        <li>JULIÁN ANDRÉS BOIKO</li>
+        <li>EZEQUIEL HORACIO FIDALGO</li>
+        <li>JAVIER ORLEANS</li>
+        <li>ERARDO NAHUEL PEREZ</li>
+      </ul>
+      <br>
+
+
+
+
+
+
+
+    </div>
 
   </section>
 
