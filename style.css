@@ -1,5 +1,5 @@
 * {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Catamaran', sans-serif;
 }
 
 .cabeza {
@@ -51,4 +51,8 @@
 }
 .grupo6 {
     font-size: large;
+}
+
+.footer {
+    background-color: grey;
 }
