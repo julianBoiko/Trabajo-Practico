@@ -60,3 +60,8 @@
 .footer p{
     text-align: center;
 }
+
+.footer a{
+    color: black;
+    align-content: end;
+}

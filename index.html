@@ -32,7 +32,7 @@
               <a class="nav-link" href="#quienes">QUIENES SOMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">DONDE ESTAMOS</a>
+              <a class="nav-link" href="#dondeEstamos">DONDE ESTAMOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">CONTACTO</a>
@@ -472,24 +472,13 @@
 </section>
 
   <footer>
-    <!-- fomluario de contacto -->
-    <!-- link => donde estamos  -->
-    <!-- <div class="footer container d-flex">
-      <div class="bg-warning m-3">
-        formulario
-      </div>                
-      <div class="bg-warning m-3">
-       donde estamos   
-      </div> 
-    </div> -->
-
     <div class="footer container d-flex">
       <div class="row container-fluid">
-        <div class="col">
+        <div class="col" id="formularioDeContacto">
           <p>FORMULARIO DE CONTACTO</p>
           <form action="">
             <div class="form-group">
-              <input type="text" class="form-control" id="nombreYApellido" placeholder="Nombre y Apellido">              
+              <input type="text" class="form-control" id="nombreYApellido" placeholder="Nombre y Apellido">
             </div>
             <div class="form-group">
               <input type="tel" class="form-control" id="phone" placeholder="Teléfono">
@@ -498,31 +487,51 @@
               <input type="email" class="form-control" id="email" placeholder="Correo Electrónico">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="Asunto" placeholder="Asunto">  
+              <input type="text" class="form-control" id="Asunto" placeholder="Asunto">
             </div>
             <div class="form-group">
               <textarea id="mensaje" cols="32" rows="5" placeholder="Mensaje"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Submit</button>
             </div>
             <!-- <br> Despues borrarlo y usar los margin o padding     -->
           </form>
         </div>
         <div class="col">
-          <p>Columna de donde estamos</p>
+          <p>DONDE ESTAMOS</p>
+          <p>Av. Olivos 3726<br>
+            B1667AUP - Tortuguitas<br>
+            Buenos Aires - Argentina<br>
+            Tel. +54 3327 454 004
+          </p>
+          <iframe id="dondeEstamos"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.959830474703!2d-58.725016885238894!3d-34.45316755705382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca2131b2ee837%3A0xb2174acd4166df6f!2sAv.%20Olivos%203726%2C%20B1667AUP%20Area%20de%20Promoci%C3%B3n%20El%20Tri%C3%A1ngulo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1680925379932!5m2!1ses!2sar"
+            width="400" height="200" style="border: 3px;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p>ATENCIÓN AL CLIENTE<br>
+            0800-444-0454<br>
+            Lunes-Viernes de 8:30 a 17:00<br>
+            contacto@gSix-vinilos.com.ar<br>
+          </p>
         </div>
         <div class="col">
-          <p>Columna de preguntas frecuentes </p>
+          <p>PREGUNTAS FRECUENTES</p>
+          <ul>
+            <li><a href="#1">Medios de pagos</a><br></li>
+            <li><a href="#2">¿Cómo crear mi cuenta?</a><br></li>
+            <li><a href="#3">¿Cómo comprar?</a><br></li>
+            <li><a href="#4">Envíos</a><br></li>
+            <li><a href="#5">Términos y Condiciones</a><br></li>
+            <li><a href="#6">Privacidad y Seguridad</a><br></li>
+            <li><a href="#7">Devoluciones y Cambios</a><br></li>
+          </ul>
         </div>
       </div>
     </div>
-
-    <!-- nombre y Apellido
-    telefono
-    correo electronico
-    asunto
-    mensaje -->
-
   </footer>
 
+    
 
 
 
