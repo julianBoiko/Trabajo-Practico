@@ -76,5 +76,12 @@
     font-weight: bold;
 }
 
+#footerExe{
+    display: none;
+}
+
+#footerJavier{
+    /* display: none; */
+}
 
 
