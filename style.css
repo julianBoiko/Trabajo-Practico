@@ -54,5 +54,27 @@
 }
 
 .footer {
-    background-color: grey;
+    background-color: grey;    
+    text-align: center;
+    align-items: center;
+  
 }
+
+ footer ul{
+        list-style: none;
+    }
+.footer p{
+    text-align: center;
+}
+
+.footer a{
+    color: black;
+    align-content: end;
+}
+
+#preguntas{
+    font-weight: bold;
+}
+
+
+
