@@ -25,3 +25,22 @@ function enviarFormulario() {
     // Mostrar un mensaje de confirmación después de enviar los datos
     alert('El formulario se envió correctamente');
   }
+
+
+  // Función para el botón "Comprar"
+function comprar() {
+    alert("Has comprado el producto!");
+  }
+  
+  // Función para el botón "Agregar al carrito"
+  function agregar() {
+    alert("Has agregado el producto al carrito de compras!");
+  }
+  
+  // Seleccionar botones por ID
+  const comprarBtn = document.getElementById("comprarBtn");
+  const agregarBtn = document.getElementById("agregarBtn");
+  
+  // Agregar evento onclick a cada botón
+  comprarBtn.onclick = comprar;
+  agregarBtn.onclick = agregar;
