@@ -46,7 +46,12 @@ body {
 .logo {
     height: 120px;
     width: auto;
+}
 
+@media (max-width: 1300px){
+    .logo {
+        height: 8vw;
+    }
 }
 
 .carrito {
